@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="#0000FF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Continue/End Game"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/spacecadets"/>
+
+            <EditText
+                android:id="@+id/dialog_name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your player name"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:fontFamily="@font/chrusty_rock"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/continueButton"
+                android:layout_width="165dp"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:background="#ADD8E6"
+                android:gravity="center"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/chrusty_rock"/>
+
+            <Button
+                android:id="@+id/checkscoreButton"
+                android:layout_width="165dp"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:background="#ADD8E6"
+                android:gravity="center"
+                android:text="Check Score"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/chrusty_rock"/>
+
+            <Button
+                android:id="@+id/endGameButton"
+                android:layout_width="165dp"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:background="#ADD8E6"
+                android:gravity="center"
+                android:text="Save Score"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/chrusty_rock"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

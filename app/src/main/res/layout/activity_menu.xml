@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundindividual"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/spacecadets"
+        android:text="PlanetFall"
+        android:textColor="@color/light_blue"
+        android:textSize="56sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text"
+        android:layout_marginTop="29dp"
+        android:fontFamily="@font/chrusty_rock"
+        android:gravity="center"
+        android:text="By Lee Woon Ming 1901575"
+        android:textColor="#FFA07A"
+        android:textSize="33sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@null"
+        android:src="@drawable/ic_baseline_play_circle_24" />
+
+    <ImageButton
+        android:id="@+id/sound_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@null"
+        android:src="@drawable/ic_baseline_volume_up_24" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="@color/light_blue"
+        android:fontFamily="@font/chrusty_rock"
+        android:text="Exit"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>

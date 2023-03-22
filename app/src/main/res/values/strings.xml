@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Planetfall</string>
+    <string name="score" />
+    <string name="timer" />
+    <string name="end_game" />
+    <string name="start_game" />
+    <string name="table_header_name" />
+    <string name="table_header_score" />
+</resources>
